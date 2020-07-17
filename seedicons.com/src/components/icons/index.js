@@ -1,20 +1,20 @@
 import React from 'react'
-import { Icon } from '../base'
-import { IconsGrid, IconCont, Content, Tooltip } from './styled'
 import copy from 'copy-to-clipboard'
 import download from 'downloadjs'
+import { Icon } from '../base'
+import { IconsGrid, IconCont, Content, Tooltip } from './styled'
 
-export function IconGrid({ icons }) {
+function IconGrid({ icons }) {
   const iconArr = Object.values(icons)
 
   return (
     <Content>
       <IconsGrid>
-        {iconArr.map(icon => (
+        {iconArr.map((icon) => (
           <IconCont
             key={icon.name}
             title={`Download ${icon.name}.svg`}
-            onClick={event => {
+            onClick={(event) => {
               if (event.shiftKey) {
                 copy(icon.toSvg())
               } else {
@@ -30,3 +30,5 @@ export function IconGrid({ icons }) {
     </Content>
   )
 }
+
+export default IconGrid

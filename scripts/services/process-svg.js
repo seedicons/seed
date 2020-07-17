@@ -30,7 +30,7 @@ function processSvg(svg, path) {
   return optimizeSvg(svg, path)
     .then(setAttrs)
     .then((result) => format(result, { parser: 'babel' }))
-    .then((svg) => svg.replace(/;/g, ''))
+    .then((result) => result.replace(/;/g, ''))
 }
 
 export default processSvg

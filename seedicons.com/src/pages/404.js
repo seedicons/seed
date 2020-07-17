@@ -9,7 +9,9 @@ const NotFoundPage = () => (
   <MyThemeProvider>
     <Layout>
       <SEO title="404: Not found" />
-      <h1>This page is so 404 I didn't even design it yet. Please go away.</h1>
+      <h1>
+        This page is so 404 I didn`&apos;`t even design it yet. Please go away.
+      </h1>
       <p>The site is one page, I mean, how did you get lost?</p>
     </Layout>
   </MyThemeProvider>

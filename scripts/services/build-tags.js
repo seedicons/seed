@@ -11,7 +11,8 @@ const svgFiles = fs
   .map((file) => file.slice(0, -4))
 
 svgFiles.forEach((file) => {
-  tags.hasOwnProperty(file) ? null : (tags[file] = [])
+  const i = tags
+  i.hasOwnProperty(file) ? null : (tags[file] = [])
 })
 
 function fixupTags(obj, arr) {
@@ -23,10 +24,10 @@ function fixupTags(obj, arr) {
 }
 
 function sortKeys(obj) {
-  var ordered = {}
+  const ordered = {}
   Object.keys(obj)
     .sort()
-    .forEach(function (key) {
+    .forEach((key) => {
       ordered[key] = obj[key]
     })
   return ordered

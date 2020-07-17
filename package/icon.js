@@ -1,6 +1,12 @@
 import classnames from 'classnames/dedupe'
 import DEFAULT_ATTRS from './default-attrs.json'
 
+function attrsToString(attrs) {
+  return Object.keys(attrs)
+    .map((key) => `${key}="${attrs[key]}"`)
+    .join(' ')
+}
+
 class Icon {
   constructor(name, contents, tags = []) {
     this.name = name
@@ -25,12 +31,6 @@ class Icon {
   toString() {
     return this.contents
   }
-}
-
-function attrsToString(attrs) {
-  return Object.keys(attrs)
-    .map((key) => `${key}="${attrs[key]}"`)
-    .join(' ')
 }
 
 export default Icon
