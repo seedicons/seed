@@ -8,7 +8,7 @@ Seed icons are available in a few different capacities:
 
 ### SVG Library
 
-Library of optimized SVG files for download on [seedicons.com](www.seedicons.com).
+Library of optimized SVG files for download on [https://seedicons.com](www.seedicons.com).
 
 ### Figma Component Library
 
