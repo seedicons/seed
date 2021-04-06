@@ -1,3 +1,5 @@
+* Abandoned project. Fun for reference but not maintained. 
+
 # 🌱 Seed icons
 
 Seed icons is an open-source icon set that makes tracking down and using optimized, quality, consistent brand SVG icons a little less painful.
@@ -148,4 +150,4 @@ Contributions are always welcome. If you notice and bug or would like to request
 
 ### Credits
 
-This project is one big mashup and open-source appropriation of projects from [Feather](https://github.com/feathericons/feather), [Ionicons](https://github.com/ionic-team/ionicons), and [Eva Icons](https://akveo.github.io/eva-icons/#/). I started this project as something to work on while I practice React/Gatsby and inspecting those projects as I learn has been truly invaluable. Anything impressive is probably code from them I didn't change. Anything that barely functions is probably from yours truly. Please consider contributing.
+This project is one big mashup and open-source appropriation of projects from [Feather](https://github.com/feathericons/feather), [Ionicons](https://github.com/ionic-team/ionicons), and [Eva Icons](https://akveo.github.io/eva-icons/#/). I started this project as something to work on while I practice React/Gatsby and inspecting those projects as I learn has been truly invaluable. Anything impressive is probably code from them I didn't change. Anything that barely functions is probably from yours truly.
